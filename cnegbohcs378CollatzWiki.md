@@ -1,0 +1,8 @@
+# Introduction #
+
+The 3n+1 problem.
+
+
+# Algorithm #
+
+I wrote the most basic 3n+1 program, based on the skeleton program that was provided to us by Prof Downing. We optimized the program by understanding that whenever we get an odd number after doing 3n+ 1, we always get an even number. Therefore we just made it to do (3n + 1)/2 , whenever an odd number is encountered. We would increment the cycle length by 2 when this happens. I will try to optimize the algorithm by implementing a cache.
